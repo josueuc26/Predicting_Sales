@@ -1,0 +1,36 @@
+# Ignore local VSCode settings
+.vscode/
+
+# Ignore virtual environment directories
+venv/
+env/
+__pycache__/
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore large or unnecessary notebook output files
+*.h5
+*.feather
+*.parquet
+
+# Ignore log files and temporary files
+*.log
+*.tmp
+*.out
+
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore Python cache and compiled files
+*.pyc
+
+# Ignore environment variable files
+*.env
+
+# Ignore compressed files
+*.zip
+*.tar.gz
+*.tar
+*.rar
