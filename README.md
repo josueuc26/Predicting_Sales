@@ -20,6 +20,8 @@ This project focuses on building a predictive model for video game sales in Japa
 
 ## Dataset
 
+[Source](https://www.kaggle.com/gregorut/videogamesales) of dataset.
+
 The dataset contains sales data from video games across different regions, including Japan, North America, and Europe. The key columns used in this project are:
 
 | Column        | Explanation                                                                   |
@@ -80,17 +82,14 @@ Key findings:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/josueuc26/Predicting_Sales.git
+   git clone https://github.com/josueuc26/predicting_Sales.git
    cd Predicting_Sales
-
 2. Install the required packages:
 
     ```python
     pip install -r requirements.txt
-
 3. Run the Jupyter notebook:
 
     ```bash
     jupyter notebook
-
 4. Load the dataset (make sure to place the csv file in the correct folder) and execute the notebook.
